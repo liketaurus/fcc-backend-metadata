@@ -1,0 +1,37 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "A simple file metadata  service created in order to took a part in freeCodeCamp back-end certification",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liketaurus/fcc-backend-metadata.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "metadata",
+    "API",
+    "freeCodeCamp"
+  ],
+  "author": "Alexander Babich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liketaurus/fcc-backend-metadata/issues"
+  },
+  "homepage": "https://github.com/liketaurus/fcc-backend-metadata#readme",
+  "engines": {
+    "node": "4.4.5",
+    "npm": "3.10.5"
+  },
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "multer": "^1.2.0"
+  }
+}
